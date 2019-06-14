@@ -1,6 +1,6 @@
-/*$(document).ready(function () {
+$(document).ready(function () {
 
-	 alert($('#test'));
+	 
 
 	$("#header, .info").ripples({
 	  dropRadius: 25,
@@ -8,11 +8,17 @@
 	  
 	});
 
+	//magnific Popup
+	$('.parent-container').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image',
 
-});*/
+  gallery: {
+  	enabled: true
+  }
+  // other options
+	});
 
-$(document).ready(function() {
 
-
-alert(hi);
 });
+
