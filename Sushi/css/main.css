@@ -179,3 +179,82 @@ body {
 	outline: 10px solid #d3325f;
 	outline-offset: 0.8rem;
 }
+
+/*----------------- Menu   --------------*/
+
+#menu {
+	background: linear-gradient(rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), url(../img/sushihero.jpg)center/cover fixed no-repeat;
+}
+
+.special {
+	position: relative;
+	border: 3px solid #d3325f;
+}
+
+.special-text {
+	position: absolute;
+	top: 0;
+	right: 10%;
+	background: #d3325f;
+	padding: 0 0.4rem;
+}
+
+/*----------------- about    --------------*/
+
+.about-pictures {
+	position: relative;
+}
+
+.about-image {
+	position: absolute;
+	width: 150px;
+	transition: all 2s ease;
+	opacity: 0.9;
+}
+
+.img-1 {
+	left: 0%;
+	top: 0%;
+}
+
+.img-2 {
+	left: 20%;
+	top: 20%;
+	z-index: 10;
+}
+.img-3 {
+	left: 40%;
+	top: 45%;
+	z-index: 20;
+}
+.img-4 {
+	left: 40%;
+	top: 0%;
+	
+}
+.img-5 {
+	left: 0%;
+	top: 45%;
+}
+
+.about-image:hover {
+	outline: 10px solid #d3325f;
+	outline-offset: 0.8rem;
+	transform: scale(1.3) rotate(20deg);
+	z-index: 30;
+	opacity: 1;
+}
+
+.about-pictures:hover .about-image:not(:hover) {
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
